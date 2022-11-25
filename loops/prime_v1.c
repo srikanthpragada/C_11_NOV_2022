@@ -21,5 +21,5 @@ void main()
        if(prime)
           printf("Prime Number");
        else
-          printf("Not a prime number");
+          printf("Not a prime number as we found %d as factor", i);
 }
