@@ -10,7 +10,7 @@ void main()
        printf("Enter 10 chars :");
        for(i = 1; i <= 10; i ++)
        {
-         ch = getch();
+         ch = getche();
          if(isupper(ch))
              count ++;
        } // for
