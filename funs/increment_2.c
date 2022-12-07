@@ -9,6 +9,8 @@ void main()
 {
   int a = 10;
 
+     scanf("%d", &a);
+
      increment(&a);  // pass by address
      printf("%d ", a);
 
